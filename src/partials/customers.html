@@ -6,11 +6,15 @@
    <div class="wrapper__carusel">
     <div class="customers__container--flex">
      <div class="wraper__img--avatar">
-      <img class="customers__avatars--leptop" srcset="./images/main/customers/1.jpg 100px, ./images/main/customers/customer-1_leptop_1x.png 767px, 
-       ./images/main/customers/customer-1_leptop_2x.png 1024px " src="./images/main/customers/1.jpg">
+      <picture>
+       <source srcset="./images/main/customers/1.jpg" media="(max-width: 767px)" />
+       <source srcset="./images/main/customers/customer-1_leptop_1x.png" media="(min-width: 768px)" />
+       <source srcset="./images/main/customers/customer-1_leptop_2x.png" media="(min-width: 1024px)" />
+       <img class="customers__avatars--leptop" src="./images/main/customers/2.jpg">
+      </picture>
      </div>
-     <div class="container__customers__stars">
-      <h4>Jessica T.</h4>
+     <div class=" container__customers__stars">
+      <h4>Alina V.</h4>
       <img class="container__customers__stars--img" src="./images/main/customers/2.png" alt="stars">
       <p class="start__text">5/5</p>
       <img class="customer__img__wave" src="./images/main/it_work/line_2.png" alt="wave">
@@ -54,8 +58,7 @@
      </div>
     </div>
     <p class="customers__about">
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-     magna
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
      aliqua.
      <span class="customers__about--span"> </span>
      Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
@@ -69,8 +72,7 @@
      labore
      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Sit amet, consectetur adipiscing elit, sed do
      eiusmod
-     tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-     do
+     tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
      </span>
     </p>
@@ -78,12 +80,14 @@
    <div class="wrapper__carusel">
     <div class="customers__container--flex">
      <div class="wraper__img--avatar">
-      <img class="customers__avatars--leptop" srcset="
-      ./images/main/customers/2.jpg 100px,
-       ./images/main/customers/customer-2_leptop_1x.png 767px, 
-       ./images/main/customers/customer-2_leptop_2x.png 1024px" src="./images/main/customers/2.jpg">
+      <picture>
+       <source srcset="./images/main/customers/2.jpg" media="(max-width: 767px)" />
+       <source srcset="./images/main/customers/customer-2_leptop_1x.png" media="(min-width: 768px)" />
+       <source srcset="./images/main/customers/customer-2_leptop_2x.png" media="(min-width: 1024px)" />
+       <img class="customers__avatars--leptop" src="./images/main/customers/2.jpg">
+      </picture>
      </div>
-     <div class="container__customers__stars">
+     <div class=" container__customers__stars">
       <h4>Alina V.</h4>
       <img class="container__customers__stars--img" src="./images/main/customers/2.png" alt="stars">
       <p class="start__text">5/5</p>
