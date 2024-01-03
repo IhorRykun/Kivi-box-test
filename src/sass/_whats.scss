@@ -156,27 +156,42 @@
 }
 
 .whats__text--leptop {
-  @media screen and (min-width: 768px) {
-    width: 307px;
+  @media screen and (max-width: 1199px) {
+    width: 180px;
+    margin-left: 20px;
+    min-height: 37px;
     color: #696969;
     min-height: 37px;
     display: block;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 307px;
     margin-left: 40px;
   }
+  color: #696969;
+  min-height: 37px;
+  display: block;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 .whats__list__title--leptop {
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 1199px) {
     font-family: Bebas Neue;
     color: #000;
-    font-size: 24px;
+    letter-spacing: 1.2px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    height: 48px;
+    vertical-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+    font-family: Bebas Neue;
+    color: #000;
     letter-spacing: 1.2px;
     font-size: 24px;
     font-style: normal;
@@ -190,12 +205,17 @@
 .whats__list__img--leptop {
   @media screen and (min-width: 768px) {
     display: flex;
-    gap: 28px;
+    width: calc(100% - 3 * 28px) / 3;
+    gap: 12px;
   }
 }
 
 .whats__item__img--leptop {
   @media screen and (min-width: 768px) {
+    width: 250px;
+  }
+
+  @media screen and (min-width: 1200px) {
     border: 1px solid #f0f8f6;
     background: #fff;
     padding-bottom: 20px;
@@ -221,37 +241,46 @@
 }
 
 .whats__button--leptop {
-  @media screen and (min-width: 768px) {
-    border-radius: 50px;
-    background: #01a3a4;
+  @media screen and (max-width: 1199px) {
+    width: 102px;
+    height: 22px;
+    margin-left: 130px;
+    margin-top: 20px;
+  }
+  @media screen and (min-width: 1200px) {
     width: 112px;
     height: 30px;
-
-    color: #fff;
-
-    text-align: center;
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.6px;
-    text-transform: uppercase;
-
     margin-left: 200px;
     margin-top: 37px;
-    transition: background-color 0.3 ease 0s;
-    overflow: hidden;
-    position: relative;
   }
+  border-radius: 50px;
+  background: #01a3a4;
+
+  color: #fff;
+
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+
+  transition: background-color 0.3 ease 0s;
+  overflow: hidden;
+  position: relative;
   &:hover,
   &:focus {
     color: white;
   }
 }
 .container__item--img--leptop--whats {
-  @media screen and (min-width: 768px) {
-    padding: 47px 20px 0 20px;
+  @media screen and (max-width: 1199px) {
+    min-height: 277px;
+  }
+  @media screen and (min-width: 1200px) {
     min-height: 247px;
   }
+  padding: 47px 20px 0 20px;
 }

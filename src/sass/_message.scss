@@ -76,8 +76,14 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
-
   @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 292px;
+    gap: 4px;
+  }
+
+  @media screen and (min-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
     gap: 3px;
@@ -93,7 +99,12 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
+
   @media screen and (min-width: 768px) {
+    width: 285px;
+    margin-left: 5px;
+  }
+  @media screen and (min-width: 1200px) {
     width: 447px;
     height: 471px;
   }
@@ -103,16 +114,22 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
+  @media screen and (max-width: 1199px) {
+    width: 145px;
+  }
 }
 
 .message__item {
   @media screen and (max-width: 767px) {
-    width: 253px;
+    width: 152px;
   }
 }
 
 .list__img__lep--img {
   @media screen and (min-width: 768px) {
+    margin-left: 5px;
+  }
+  @media screen and (min-width: 1199px) {
     margin-left: 12px;
   }
 }
@@ -122,7 +139,11 @@
     max-width: 150px;
     width: 100%;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 1199px) {
+    width: 144px;
+  }
+
+  @media screen and (min-width: 1200px) {
     width: 234px;
   }
 }
