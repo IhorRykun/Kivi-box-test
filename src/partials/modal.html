@@ -1,10 +1,11 @@
 <div class="wraper display-nan">
  <div class="wraper__modal">
   <div class="wraper__modal__container__img">
-   <img class="wraper__modal__container__imgages"
-    srcset="./images/main/modal/modal__mobile.jpg 100w,./images/main/modal/modal__img_1x.jpg 300w,./images/main/modal/modal__img_2x.jpg 400w "
-    src="./images/main/modal/modal__mobile.jpg" alt="modal__img"
-    sizes="(max-width:767px) 100w, (min-width:768px) 300w, (min-width:1024px) 400w">
+   <picture>
+    <source srcset="./images/main/modal/modal__img_1x.jpg" media="(min-width:768px)">
+    <source srcset="./images/main/modal/modal__img_2x.jpg" media="(min-width:1024px)">
+    <img class="wraper__modal__container__imgages" src="./images/main/modal/modal__mobile.jpg" alt="modal__img">
+   </picture>
   </div>
   <div class="modal__text--right">
    <p id="close" class="button__close">&#x292C</p>
