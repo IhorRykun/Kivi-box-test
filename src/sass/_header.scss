@@ -133,7 +133,6 @@
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-
 .burger__item::after,
 .burger__item::before {
   @media screen and (max-width: 767px) {

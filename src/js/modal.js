@@ -6,7 +6,7 @@ const body = document.querySelector('body');
 
 bodyHtml.addEventListener('click', e => {
   e.preventDefault();
-  if (e.target.id !== 'modal') {
+  if (e.target.id !== "modal") {
     return;
   }
   menuBtnRef.classList.toggle('display-nan');
