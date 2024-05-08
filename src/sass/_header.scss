@@ -1,10 +1,9 @@
 .header {
   @media screen and (max-width: 767px) {
-    padding: 0.21rem 0.66rem;
+    padding: 0.21rem 0;
     position: fixed;
     background-color: #fff;
-    min-width: 200px;
-    width: 100%;
+    // width: 100%;
     z-index: 2;
   }
   @media screen and (min-width: 768px) {

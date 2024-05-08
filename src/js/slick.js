@@ -1,3 +1,4 @@
+
 $('.carousel').slick({
   dots: false,
   infinite: true,
@@ -8,3 +9,4 @@ $('.carousel').slick({
   autoplaySpeed: 2000,
   infinite: true,
 });
+

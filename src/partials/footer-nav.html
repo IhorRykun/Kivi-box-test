@@ -1,7 +1,9 @@
 <section class="footer" id="footer">
  <div class="container">
   <div class="container__footer--flex--lep">
-   <img class="footer__logo" src="./images/main/footer/footer.png" alt="logo">
+   <div class="container__footer__logo">
+    <img class="footer__logo" src="./images/main/footer/footer.png" alt="logo">
+   </div>
    <ul class="footer__list__link">
     <li class="footer__item__link"><a class="footer__link" href="">Home</a></li>
     <li class="footer__item__link display__none"><a class="footer__link" href="">What's inside</a></li>
@@ -39,11 +41,14 @@
     <li class="footer__decor__text footer__decor__text--margin">Kiwi Eco Box &copy 2021</li>
     <li class="footer__decor__text tex--left-auto">Development by SheepFish</li>
    </ul>
-   <div>
-    <svg class="footer__svg" width="38" height="30"></svg>
+   <div class="container__footer-svg">
+    <svg class="footer__svg" width="38" height="30">
+     <use href="./images/sprite.svg#Frame"></use>
+    </svg>
    </div>
    <use href="./images/sprite.svg#Frame"></use>
    </svg>
   </div>
  </div>
 </section>
+

@@ -222,15 +222,16 @@
     padding-bottom: 20px;
     display: block;
     width: 387px;
+    object-fit: contain;
   }
   &:hover {
-    transform: scale(0.9, 1.1);
+    // transform: scale(0.9, 1.1);
     cursor: pointer;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    // transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &:hover .whats__img--leptop {
-    animation: swirl-in-fwd 0.8s;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus .whats__img--leptop {
+    // animation: swirl-in-fwd 0.8s;
+    // transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 .whats__img--leptop-wave {
@@ -284,4 +285,16 @@
     min-height: 247px;
   }
   padding: 47px 20px 0 20px;
+}
+
+.hover-image-scale {
+  display: inline-block;
+  overflow: hidden; /* Скрываем всё за контуром */
+}
+.hover-image-scale img {
+  transition: 1s; /* Время эффекта */
+  display: block;
+}
+.hover-image-scale img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
 }
