@@ -9,6 +9,9 @@
   @media screen and (min-width: 768px) {
     padding: 20px 0;
   }
+  @media screen and (min-width: 1200px) {
+    padding: 20px 0;
+  }
 }
 
 .heder__logo--mobile {
@@ -39,6 +42,11 @@
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -47,6 +55,12 @@
     display: none;
   }
   @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+  }
+
+  @media screen and (min-width: 1200px) {
     display: flex;
     align-items: center;
     gap: 100px;
@@ -159,7 +173,7 @@
   @media screen and (max-width: 767px) {
     background-color: #f0f8f6;
     position: fixed;
-    width: 300px;
+    width: 100%;
     height: 100%;
     // display: none;
     top: 59px;

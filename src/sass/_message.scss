@@ -79,7 +79,7 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    width: 292px;
+    width: 220px;
     gap: 4px;
   }
 
@@ -92,6 +92,10 @@
 }
 
 .container__image-flex {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 680px;
+  }
+
   display: flex;
   width: 1200px;
 }
@@ -101,7 +105,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: 285px;
+    width: 216px;
     margin-left: 5px;
   }
   @media screen and (min-width: 1200px) {
@@ -140,7 +144,7 @@
     width: 100%;
   }
   @media screen and (max-width: 1199px) {
-    width: 144px;
+    width: 108px;
   }
 
   @media screen and (min-width: 1200px) {

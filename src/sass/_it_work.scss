@@ -1,8 +1,9 @@
 .it__work {
   @media screen and (max-width: 767px) {
-    padding: 50px 22px;
+    padding: 50px 0 50px 0;
     padding-bottom: 30px;
   }
+  
   @media screen and (min-width: 768px) {
     padding: 100px 0;
   }

@@ -1,3 +1,5 @@
+import $ from 'jquery';
+import "slick-carousel"
 
 $('.carousel').slick({
   dots: false,
@@ -9,4 +11,3 @@ $('.carousel').slick({
   autoplaySpeed: 2000,
   infinite: true,
 });
-

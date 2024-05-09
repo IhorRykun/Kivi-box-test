@@ -4,6 +4,7 @@
     padding-bottom: 30px;
     text-align: center;
   }
+
   @media screen and (min-width: 768px) {
     padding: 100px 0;
     padding-bottom: 40px;
@@ -23,7 +24,6 @@
     text-transform: uppercase;
     margin-top: 10px;
   }
-
   @media screen and (min-width: 768px) {
     color: #01a3a4;
     font-family: Roboto;
@@ -60,7 +60,17 @@
     text-transform: uppercase;
     margin-top: 20px;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 680px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  @media screen and (min-width: 1200px) {
     color: #000;
     font-family: Bebas Neue;
     font-size: 96px;
@@ -82,8 +92,12 @@
     line-height: normal;
     color: #88e6c0;
   }
-  @media screen and (max-width: 1199px) {
-    margin-left: 372px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 300px;
+    width: 380px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 630px;
   }
   background: var(
     --1,
@@ -99,8 +113,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
-  margin-left: 624px;
 }
 
 .mission__container__text__ab {
