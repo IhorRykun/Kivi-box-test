@@ -63,13 +63,21 @@
 }
 
 .about__container--absolute {
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+  }
   @media screen and (min-width: 768px) {
     position: relative;
     z-index: 2;
     width: 384px;
   }
+  @media screen and (min-width: 1200px) {
+    width: 768px;
+    position: relative;
+  }
 }
-
 .about__text--h2 {
   @media screen and (max-width: 767px) {
     color: #000;
@@ -133,7 +141,7 @@
   @media screen and (min-width: 768px) {
     width: 390px;
     margin-top: -242px;
-    margin-left: -260px;
+    margin-left: -52px;
   }
   @media screen and (min-width: 1200px) {
     width: 662px;
@@ -301,16 +309,16 @@
     font-weight: 700;
     line-height: normal;
     position: absolute;
-    top: 606px;
-    left: 15px;
+    top: 102px;
+    left: 0;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 180px;
     font-size: 24px;
     position: absolute;
-    top: 412px;
-    left: 234px;
+    top: 14px;
+    left: 198px;
     height: 50px;
   }
 
@@ -318,7 +326,8 @@
     width: 220px;
     height: 50px;
     position: absolute;
-    top: 558px;
+    top: 24px;
+    left: 358px;
     right: 744px;
   }
   background-color: #01a3a4;
@@ -347,6 +356,9 @@
 
 .about__text--button {
   @media screen and (max-width: 767px) {
+    display: block;
+    max-width: 450px;
+    width: 100%;
     color: #c4c4c4;
     font-family: Roboto;
     font-size: 12px;
