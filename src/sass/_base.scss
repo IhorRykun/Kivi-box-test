@@ -80,3 +80,20 @@ img {
 .scroll {
   overflow: hidden;
 }
+body::-webkit-scrollbar {
+  width: 4px;
+  cursor: pointer; /* ширина всей полосы прокрутки */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 20px;
+  /* цвет зоны отслеживания */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white; /* цвет бегунка */
+  border-radius: 20px; /* округлось бегунка */
+  border: 3px solid #01a3a4; /* отступ вокруг бегунка */
+  cursor: pointer;
+}

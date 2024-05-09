@@ -142,6 +142,23 @@
     overflow-y: scroll;
   }
 }
+.customer__text__lorem::-webkit-scrollbar {
+  width: 4px;
+  cursor: pointer;
+}
+.customer__text__lorem::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  /* цвет зоны отслеживания */
+}
+
+.customer__text__lorem::-webkit-scrollbar-thumb {
+  background-color: white; /* цвет бегунка */
+  border-radius: 20px; /* округлось бегунка */
+  border: 3px solid #01a3a4; /* отступ вокруг бегунка */
+  cursor: pointer;
+}
 
 .customer__text__lorem--span {
   @media screen and (min-width: 768px) {
